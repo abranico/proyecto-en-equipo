@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.login-container{
+  max-width: 520px;
+  padding: 25px;
+  border: solid black 1px;
+  margin: auto;
+  margin-top: 200px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.username{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.usernameInput{
+  width: 200px;
+  margin: auto;
+}
+
+.password{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.passwordInput{
+  width: 200px;
+  margin: auto;
+}
+
+.login{
+  padding: 10px;
+  width: 200px;
+  margin:auto;
+}

@@ -1,0 +1,17 @@
+<div class="login-container">
+  <form [formGroup]="form">
+    <div class="username">
+      <label for="username">Username:</label>
+      <input class="usernameInput" type="text" id="username" formControlName="username">
+    </div>
+    <div class="password">
+      <label for="password">Password:</label>
+      <input class="passwordInput" type="password" name="password" id="password" formControlName="password">
+    </div>
+    <input class="login" type="submit" value="Login" (click)="submit()">
+  </form>
+  <div style="text-align: center;">
+    <p>username: admin</p>
+    <p>password: admin123</p>
+  </div>
+</div>
