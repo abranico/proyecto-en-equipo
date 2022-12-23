@@ -8,10 +8,10 @@ import { LoginComponent } from './components/login/login.component';
 
 const routes: Routes = [
   {path:'',component:LoginComponent},
-  {path:'All', component:HomeComponent},
-  {path:'Clothes',component:ClothesComponent},
-  {path:'Jewels',component:JewelsComponent},
-  {path:'Electronic',component:ElectronicComponent}
+  {path:'all', component:HomeComponent},
+  {path:'clothes',component:ClothesComponent},
+  {path:'jewels',component:JewelsComponent},
+  {path:'electronic',component:ElectronicComponent}
 
   
 ];
