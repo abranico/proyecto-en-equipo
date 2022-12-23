@@ -1,4 +1,4 @@
-<div class="login-container">
+<!-- <div class="login-container">
   <form [formGroup]="form">
     <div class="username">
       <label for="username">Username:</label>
@@ -14,4 +14,22 @@
     <p>username: admin</p>
     <p>password: admin123</p>
   </div>
-</div>
+</div> -->
+
+<section>
+  <main>
+    <div class="wrapper">
+      <div class="heading">
+        <h1>Login</h1>
+      </div>
+      <form [formGroup]="form" class="form-group">
+        <input type="text" placeholder="username" formControlName="username">
+        <input type="password" placeholder="password" formControlName="password">
+        <button type="submit" class="btn btn-primary" (click)="submit()">log in</button>
+      </form>
+      <p>username: admin</p>
+      <p>password: admin123</p>
+    </div>
+  </main>
+
+</section>

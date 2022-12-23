@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  buttonValidity = false
+  error = false
   form: FormGroup;
-  constructor(private formBuilder: FormBuilder) {
+  constructor(private formBuilder: FormBuilder, private router: Router) {
     this.form = this.formBuilder.group({
       username: ['', Validators.required],
       password: ['', Validators.required]
@@ -18,9 +18,13 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
   submit(){
     if(this.form.value.username == 'admin' && this.form.value.password == 'admin123'){
-      console.log("bien")
+      setTimeout(()=>{
+        this.router.navigate(['dashboard'])
+      },1500)
+    }
     }
   }
-}
+
