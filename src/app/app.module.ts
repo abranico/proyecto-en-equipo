@@ -11,26 +11,23 @@ import { ClothesComponent } from './components/clothes/clothes.component';
 import { JewelsComponent } from './components/jewels/jewels.component';
 import { ElectronicComponent } from './components/electronic/electronic.component';
 
-
 @NgModule({
-    declarations: [
-        AppComponent,
-        LoginComponent,
-        HomeComponent,
-        NavbarComponent,
-        ClothesComponent,
-        JewelsComponent,
-        ElectronicComponent
-        
-    ],
-    providers: [],
-    bootstrap: [AppComponent],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        ReactiveFormsModule,
-        HttpClientModule
-        
-    ]
+  declarations: [
+    AppComponent,
+    LoginComponent,
+    HomeComponent,
+    ClothesComponent,
+    ElectronicComponent,
+    JewelsComponent,
+    NavbarComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
 })
 export class AppModule { }
