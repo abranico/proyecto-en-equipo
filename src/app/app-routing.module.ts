@@ -13,7 +13,7 @@ const routes: Routes = [
   {path:'jewels',component:JewelsComponent},
   {path:'electronic',component:ElectronicComponent}
 
-  
+
 ];
 
 @NgModule({

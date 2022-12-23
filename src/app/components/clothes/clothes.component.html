@@ -7,3 +7,11 @@
 </nav>
 
 
+
+<div class="Api">
+  <ul class="ul" *ngFor="let clothe of clothes">
+    <img src="{{clothe.image}}" alt="">
+    <li class="li"> $ {{clothe.price}} </li>
+    <p class="title"> {{clothe.title}} </p>
+  </ul>
+</div>

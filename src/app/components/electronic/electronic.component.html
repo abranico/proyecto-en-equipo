@@ -5,3 +5,13 @@
   <a href="/electronic">Electronic</a>
   
 </nav>
+
+
+
+<div class="Api">
+  <ul class="ul" *ngFor="let electronic of electronic">
+    <img src="{{electronic.image}}" alt="">
+    <li class="li"> $ {{electronic.price}} </li>
+    <p class="title"> {{electronic.title}} </p>
+  </ul>
+</div>
