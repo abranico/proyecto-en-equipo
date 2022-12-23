@@ -1,8 +1,19 @@
+<nav class="nav">
+    <a href="/All">All</a>
+    <a href="/Clothes">Clothes</a>
+    <a href="/Jewels">Jewels</a>
+    <a href="/Electronic">Electronic</a>
+    
+  </nav>
+
+
+  
 <div class="Api">
-<ul *ngFor="let product of products">
+<ul class="ul" *ngFor="let product of products">
 <img src="{{product.image}}" alt="">
-<li> {{product.title}} </li>
-<li> $ {{product.price}} </li>
+<li class="li"> $ {{product.price}} </li>
+<p class="title"> {{product.title}} </p>
+
     
 </ul>
 

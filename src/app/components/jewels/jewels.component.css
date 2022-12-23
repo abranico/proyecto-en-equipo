@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    background-color: steelblue;
+    height: 35px;
+}
+.nav > a{
+    text-decoration: none;
+    position: relative;
+    left: 1cm;
+    margin-left: 6cm;
+    color: white;
+    font-size: 20px;
+    
+}

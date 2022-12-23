@@ -4,31 +4,33 @@ import { BrowserModule } from '@angular/platform-browser';
 import{HttpClientModule} from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-<<<<<<< HEAD
 import { LoginComponent } from './components/login/login.component';
-=======
-import { HomeComponent } from './components/home/home.component';
->>>>>>> tomas
+import { HomeComponent } from "./components/home/home.component";
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { ClothesComponent } from './components/clothes/clothes.component';
+import { JewelsComponent } from './components/jewels/jewels.component';
+import { ElectronicComponent } from './components/electronic/electronic.component';
+
 
 @NgModule({
-  declarations: [
-    AppComponent,
-<<<<<<< HEAD
-    LoginComponent
-=======
-    HomeComponent
->>>>>>> tomas
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-<<<<<<< HEAD
-    ReactiveFormsModule
-=======
-    HttpClientModule
->>>>>>> tomas
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        LoginComponent,
+        HomeComponent,
+        NavbarComponent,
+        ClothesComponent,
+        JewelsComponent,
+        ElectronicComponent
+        
+    ],
+    providers: [],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        ReactiveFormsModule,
+        HttpClientModule
+        
+    ]
 })
 export class AppModule { }
