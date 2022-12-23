@@ -22,7 +22,7 @@ export class LoginComponent implements OnInit {
   submit(){
     if(this.form.value.username == 'admin' && this.form.value.password == 'admin123'){
       setTimeout(()=>{
-        this.router.navigate(['dashboard'])
+        this.router.navigate(['all'])
       },1500)
     }
     }

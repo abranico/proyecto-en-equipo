@@ -11,6 +11,7 @@ import { ClothesComponent } from './components/clothes/clothes.component';
 import { JewelsComponent } from './components/jewels/jewels.component';
 import { ElectronicComponent } from './components/electronic/electronic.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { ElectronicComponent } from './components/electronic/electronic.componen
     ClothesComponent,
     ElectronicComponent,
     JewelsComponent,
-    NavbarComponent
+    NavbarComponent,
+
   ],
   imports: [
     BrowserModule,

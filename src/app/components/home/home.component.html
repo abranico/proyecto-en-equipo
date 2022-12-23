@@ -1,20 +1,18 @@
 <nav class="nav">
-    <a href="/All">All</a>
-    <a href="/Clothes">Clothes</a>
-    <a href="/Jewels">Jewels</a>
-    <a href="/Electronic">Electronic</a>
-    
-  </nav>
+  <a href="/all">All</a>
+  <a href="/clothes">Clothes</a>
+  <a href="/jewels">Jewels</a>
+  <a href="/electronic">Electronic</a>
+
+</nav>
 
 
-  
+
 <div class="Api">
-<ul class="ul" *ngFor="let product of products">
-<img src="{{product.image}}" alt="">
-<li class="li"> $ {{product.price}} </li>
-<p class="title"> {{product.title}} </p>
-
-    
-</ul>
+  <ul class="ul" *ngFor="let product of products">
+    <img src="{{product.image}}" alt="">
+    <li class="li"> $ {{product.price}} </li>
+    <p class="title"> {{product.title}} </p>
+  </ul>
 
 </div>

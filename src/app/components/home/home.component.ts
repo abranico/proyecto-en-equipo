@@ -18,7 +18,11 @@ export class HomeComponent implements OnInit {
     this.ApiService.getData().subscribe(data=>{
       this.products = data;
     })
-    
+
+  }
+
+  addToCart(index: number){
+    console.log(index)
   }
 
 }
